@@ -1,0 +1,87 @@
+ 
+  {
+    "eno": 900,
+    "name": "Yashodhan",
+    "skills": "HTML , CSS",
+    "img": "male.jpg",
+    "project": "Cognizant Internal ",
+    "HCM": "ALex",
+  },
+
+  {
+   "eno": 1400,
+    "name": "Apoorva",
+    "skills": "React, MongoDB",
+    "img": "female.jpg",
+    "project": "Cognizant Internal",
+    "HCM": "Alex",
+  },
+
+  {
+    "eno": 1100,
+    "name": "Anmol",
+    "skills": "Angular,JavaScript ",
+    "project": "Cognizant Internal ",
+    "img": "male.jpg",
+    "HCM": "Alex",
+  },
+  {
+    eno: 1200,
+    name: "Pratiksha",
+    skills: "Angular, TypeScript",
+    project: "Cognizant Internal ",
+    img: "female.jpg",
+    HCM: "Alex",
+  },
+  {
+    eno: 1600,
+    name: "Sayali",
+    skills: "MYSQL, NodeJs",
+    img: "female.jpg",
+    project: "Cognizant Internal",
+    HCM: "ALex",
+  },
+
+  {
+    eno: 1000,
+    name: "Aniket",
+    skills: "React, Express JS",
+    img: "male.jpg",
+    project: "Cognizant Internal ",
+    HCM: "Alex",
+  },
+
+  {
+    eno: 1500,
+    name: "Pooja",
+    skills: "Django, Swift",
+    img: "female.jpg",
+    project: "Cognizant External",
+    HCM: "Alex",
+  },
+
+  {
+    eno: 1700,
+    name: "Omkar",
+    img: "male.jpg",
+    skills: "Spring, SASS",
+    project: "Cognizant Internal",
+    HCM: "Alex",
+  },
+  {
+    eno: 1300,
+    name: "Manasa",
+    skills: "BootStrap, CSS, HTML",
+    project: "Cognizant Internal ",
+    img: "female.jpg",
+    HCM: "Alex",
+  },
+  {
+    eno: 1800,
+    name: "Pratik",
+    skills: "Angular, SQL, PL/SQL",
+    img: "male.jpg",
+    project: "Cognizant External",
+    HCM: "ALex",
+  },
+];

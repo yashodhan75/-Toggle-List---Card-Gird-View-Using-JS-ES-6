@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- ********************Head Part********************** -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Recursive:300,regular,500,600,700,800,900"
+      rel="stylesheet"
+    />
+
+    <!-- <link rel="stylesheet" href="style.css" /> -->
+
+    <!-- styles -->
+    <style>
+      body {
+        background-color: #19194c;
+        background-attachment: fixed;
+        font-family: open Sans;
+        font-size: 20px;
+      }
+      #grid {
+        cursor: pointer;
+        background-color: rgb(39, 15, 135);
+      }
+      #lis {
+        cursor: pointer;
+        background-color: rgb(9, 9, 62);
+      }
+      .x {
+        margin-left: auto;
+      }
+      .save {
+        display: none;
+      }
+      .card {
+        /* display: flex; */
+        align-items: center;
+      }
+      .del {
+        cursor: pointer;
+      }
+      .btn {
+        border: 1px solid black;
+        background-color: rgb(230, 248, 248);
+      }
+    </style>
+    <!-- styles end -->
+  </head>
+
+  <body>
+    <!-- grid toggle button -->
+    <div
+      style="font-size: 3rem; text-align: right; padding-right: 60px"
+      id="grid"
+    >
+      <i
+        class="fas fa-th"
+        style="color: rgb(253, 255, 253)"
+        onclick="togglegrid()"
+      ></i>
+    </div>
+
+    <!-- ******* Grid Display HTML ********* -->
+    <div class="container" id="grid1">
+      <div class="row row-cols-1 row-cols-md-3 contai"></div>
+      <br />
+    </div>
+
+    <!-- table toggle button -->
+    <div
+      style="font-size: 3rem; text-align: right; padding-right: 60px"
+      id="lis"
+    >
+      <i class="fas fa-th-list" style="color: white" onclick="togglelist()"></i>
+    </div>
+
+    <!-- ********* Table Display HTML************ -->
+
+    <div class="container mt-5" id="listt">
+      <div class="table listInitial" id="list1">
+        <table class="table table-bordered bg-light text-center">
+          <thead>
+            <th>Name</th>
+            <th>ID</th>
+            <th>Skills</th>
+            <th>Project</th>
+            <th>HCM</th>
+            <th>Edit or Remove Employee</th>
+          </thead>
+          <!-- List View -->
+          <tbody class="tableRow"></tbody>
+        </table>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
